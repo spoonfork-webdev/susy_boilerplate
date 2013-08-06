@@ -1,0 +1,208 @@
+/* line 41, ../sass/screen.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* line 51, ../sass/screen.scss */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 54, ../sass/screen.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 57, ../sass/screen.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 61, ../sass/screen.scss */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* line 65, ../sass/screen.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 77, ../sass/screen.scss */
+html {
+  overflow-y: scroll;
+  background: #FFF;
+}
+
+/* line 83, ../sass/screen.scss */
+img, embed, object, video {
+  max-width: 100%;
+}
+
+/* line 84, ../sass/screen.scss */
+.ie6 img.full, .ie6 object.full, .ie6 embed, .ie6 video {
+  width: 100%;
+}
+
+/* line 90, ../sass/screen.scss */
+body {
+  font-family: Georgia, "Times New Roman", serif;
+  line-height: 1.5em;
+  color: #333;
+}
+
+/* line 96, ../sass/screen.scss */
+h1 {
+  font-size: 2.375em;
+  line-height: 1.26316em;
+}
+
+/* line 97, ../sass/screen.scss */
+h2 {
+  font-size: 2em;
+  line-height: 1.5em;
+}
+
+/* line 98, ../sass/screen.scss */
+h3 {
+  font-size: 1.5em;
+  line-height: 2em;
+}
+
+/* line 99, ../sass/screen.scss */
+h4 {
+  font-size: 1.125em;
+  line-height: 1.33333em;
+}
+
+/* line 100, ../sass/screen.scss */
+h5 {
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
+/* line 101, ../sass/screen.scss */
+h6 {
+  font-size: 0.75em;
+  line-height: 2em;
+}
+
+/* line 103, ../sass/screen.scss */
+h1 small {
+  font-size: 1.5em;
+  line-height: 2em;
+}
+
+/* line 104, ../sass/screen.scss */
+h2 small {
+  font-size: 1.125em;
+  line-height: 1.33333em;
+}
+
+/* line 105, ../sass/screen.scss */
+h3 small {
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
+/* line 106, ../sass/screen.scss */
+h4 small {
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
+/* line 108, ../sass/screen.scss */
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 0.75em;
+}
+
+/* line 112, ../sass/screen.scss */
+p, ul, ol, dl, blockquote {
+  margin-bottom: 1.5em;
+  max-width: 30em;
+}
+
+/* line 117, ../sass/screen.scss */
+ul {
+  list-style-type: disc;
+  margin-left: 1.5em;
+}
+
+/* line 118, ../sass/screen.scss */
+ol {
+  list-style-type: decimal;
+  margin-left: 1.5em;
+}
+
+/* line 119, ../sass/screen.scss */
+nav ul, nav ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 121, ../sass/screen.scss */
+b, strong {
+  font-weight: bold;
+}
+
+/* line 122, ../sass/screen.scss */
+i, em {
+  font-style: italic;
+}
+
+/* line 123, ../sass/screen.scss */
+small {
+  font-size: 80%;
+}
+
+/* line 133, ../sass/screen.scss */
+.container {
+  *zoom: 1;
+  max-width: 64.5em;
+  _width: 64.5em;
+  padding-left: 0.75em;
+  padding-right: 0.75em;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 38, ../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+.container:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media (min-width: 44em) and (max-width: 66em) {
+  /* line 142, ../sass/screen.scss */
+  .container {
+    max-width: 42.5em;
+  }
+}
+@media (min-width: 66em) {
+  /* line 153, ../sass/screen.scss */
+  .container {
+    max-width: 64.5em;
+  }
+}
