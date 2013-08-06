@@ -200,9 +200,3 @@ small {
     max-width: 42.5em;
   }
 }
-@media (min-width: 66em) {
-  /* line 153, ../sass/screen.scss */
-  .container {
-    max-width: 64.5em;
-  }
-}
