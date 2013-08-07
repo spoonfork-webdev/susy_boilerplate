@@ -211,24 +211,16 @@ small {
   clear: both;
 }
 
-@media (min-width: 44em) and (max-width: 66em) {
-  /* line 10, ../sass/_layouts.scss */
-  .container {
-    max-width: 42.5em;
-  }
-
-  /* line 3, ../sass/_blocks.scss */
-  #main-content {
-    width: 48.23529%;
-    float: left;
-    margin-right: 3.52941%;
-  }
+/* line 10, ../sass/_layouts.scss */
+.container {
+  max-width: 64.5em;
+  _width: 64.5em;
 }
-@media (min-width: 66em) {
-  /* line 3, ../sass/_blocks.scss */
-  #main-content {
-    width: 31.78295%;
-    float: left;
-    margin-right: 2.32558%;
-  }
+
+/* line 3, ../sass/_blocks.scss */
+#main-content {
+  width: 31.78295%;
+  float: left;
+  margin-right: 2.32558%;
+  display: inline;
 }
