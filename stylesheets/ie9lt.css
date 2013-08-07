@@ -117,79 +117,80 @@ body {
 h1 {
   font-size: 2.375em;
   line-height: 1.26316em;
-}
-
-/* line 87, ../sass/_root.scss */
-h2 {
-  font-size: 2em;
-  line-height: 1.5em;
-}
-
-/* line 88, ../sass/_root.scss */
-h3, h1 small {
-  font-size: 1.5em;
-  line-height: 2em;
-}
-
-/* line 89, ../sass/_root.scss */
-h4, h2 small {
-  font-size: 1.125em;
-  line-height: 1.33333em;
+  margin-bottom: 0.31579em;
 }
 
 /* line 90, ../sass/_root.scss */
+h2 {
+  font-size: 2em;
+  line-height: 1.5em;
+  margin-bottom: 0.375em;
+}
+
+/* line 94, ../sass/_root.scss */
+h3, h1 small {
+  font-size: 1.5em;
+  line-height: 2em;
+  margin-bottom: 0.5em;
+}
+
+/* line 98, ../sass/_root.scss */
+h4, h2 small {
+  font-size: 1.125em;
+  line-height: 1.33333em;
+  margin-bottom: 0.66667em;
+}
+
+/* line 102, ../sass/_root.scss */
 h5, h3 small, h4 small {
   font-size: 1em;
   line-height: 1.5em;
-}
-
-/* line 91, ../sass/_root.scss */
-h6 {
-  font-size: 0.75em;
-  line-height: 2em;
-}
-
-/* line 93, ../sass/_root.scss */
-h1, h2, h3, h4, h5, h6 {
   margin-bottom: 0.75em;
 }
 
-/* line 97, ../sass/_root.scss */
+/* line 106, ../sass/_root.scss */
+h6 {
+  font-size: 0.75em;
+  line-height: 2em;
+  margin-bottom: 1em;
+}
+
+/* line 111, ../sass/_root.scss */
 p, ul, ol, dl, blockquote {
   margin-bottom: 1.5em;
   max-width: 30em;
 }
 
-/* line 102, ../sass/_root.scss */
+/* line 116, ../sass/_root.scss */
 ul {
   list-style-type: disc;
   margin-left: 1.5em;
 }
 
-/* line 103, ../sass/_root.scss */
+/* line 117, ../sass/_root.scss */
 ol {
   list-style-type: decimal;
   margin-left: 1.5em;
 }
 
-/* line 104, ../sass/_root.scss */
+/* line 118, ../sass/_root.scss */
 nav ul, nav ol {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-/* line 106, ../sass/_root.scss */
+/* line 120, ../sass/_root.scss */
 b, strong {
   font-weight: bold;
 }
 
-/* line 107, ../sass/_root.scss */
+/* line 121, ../sass/_root.scss */
 i, em {
   font-style: italic;
 }
 
-/* line 108, ../sass/_root.scss */
+/* line 122, ../sass/_root.scss */
 small {
   font-size: 80%;
 }

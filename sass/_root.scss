@@ -83,15 +83,29 @@
     color: #333;
   }
 
-  h1 { @include adjust-font-size-to(38px); }
-  h2 { @include adjust-font-size-to(32px); }
-  h3, h1 small { @include adjust-font-size-to(24px); }
-  h4, h2 small { @include adjust-font-size-to(18px); }
-  h5, h3 small, h4 small { @include adjust-font-size-to(16px); }
-  h6 { @include adjust-font-size-to(12px); }
-
-  h1, h2, h3, h4, h5, h6 {
-    margin-bottom: emCalc($base-line-height / 2);
+  h1 {
+    @include adjust-font-size-to(38px);
+    @include trailer(0.5, 38px);
+  }
+  h2 {
+    @include adjust-font-size-to(32px);
+    @include trailer(0.5, 32px);
+  }
+  h3, h1 small {
+    @include adjust-font-size-to(24px);
+    @include trailer(0.5, 24px);
+  }
+  h4, h2 small {
+    @include adjust-font-size-to(18px);
+    @include trailer(0.5, 18px);
+  }
+  h5, h3 small, h4 small {
+    @include adjust-font-size-to(16px);
+    @include trailer(0.5, 16px);
+  }
+  h6 {
+    @include adjust-font-size-to(12px);
+    @include trailer(0.5, 12px);
   }
 
   p, ul, ol, dl, blockquote {

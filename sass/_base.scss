@@ -52,7 +52,7 @@
 
 // Set Breakpoint Values
 //--------------------------------------------------------------------------
-@function setBreakpoint($colWidth, $gutterWidth, $colCount) {
+@function getBreakpoint($colWidth, $gutterWidth, $colCount) {
   @return ($colWidth * $colCount) + ($gutterWidth * $colCount);
 }
 
@@ -83,6 +83,6 @@ $grid-padding: $gutter-width / 2;
 $show-grid-backgrounds  : true;
 
 //  Breakpoints
-$large-breakpoint: setBreakpoint($column-width, $gutter-width, $total-columns);
-$medium-breakpoint: setBreakpoint($column-width, $gutter-width, $tablet-columns);
+$large-breakpoint: getBreakpoint($column-width, $gutter-width, $total-columns);
+$medium-breakpoint: getBreakpoint($column-width, $gutter-width, $tablet-columns);
 
