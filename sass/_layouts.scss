@@ -1,8 +1,8 @@
 @mixin global-layout
 {
-	.container {
-		@include container;
-	}
+  .container {
+    @include container;
+  }
 }
 
 @mixin med-layout
@@ -10,11 +10,11 @@
   .container {
     @include set-container-width;
   }
-
-  @include blocks;
 }
 
 @mixin large-layout
 {
-	@include blocks;
+  
 }
+
+@include blocks;
